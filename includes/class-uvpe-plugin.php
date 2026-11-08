@@ -42,6 +42,7 @@ class UVPE_Plugin {
 
 		new UVPE_Shortcode();
 		new UVPE_Ajax();
+		new UVPE_Block();
 
 		if ( is_admin() ) {
 			new UVPE_Admin();

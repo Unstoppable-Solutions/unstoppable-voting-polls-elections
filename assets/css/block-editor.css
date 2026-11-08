@@ -1,0 +1,12 @@
+/* Editor-only styles for the Unstoppable Voting block. Added in 2.2.0.
+ * Frontend uses the standard uvpe-frontend stylesheet enqueued by
+ * UVPE_Shortcode.
+ */
+
+.wp-block-unstoppable-solutions-uvpe-poll {
+    margin: 1em 0;
+}
+
+.wp-block-unstoppable-solutions-uvpe-poll .components-placeholder .components-placeholder__fieldset {
+    max-width: 320px;
+}

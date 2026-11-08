@@ -4,7 +4,7 @@ Tags: polls, voting, elections, ballot, surveys
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.1.0
+Stable tag: 2.2.0
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,6 +128,11 @@ No data ever leaves your site. Deleting the plugin from the Plugins screen remov
 
 == Changelog ==
 
+= 2.2.0 =
+* **New: Gutenberg block** — Insert any of your polls into a page or post from the block picker without copying shortcodes. Search for "Poll" in the inserter, pick the poll from a dropdown in the block sidebar, and get a live preview in the editor. On the frontend, the block renders through the same shortcode handler, so results, templates and duplicate-vote prevention all behave exactly the same as `[uvpe_poll]`. Converting an existing shortcode block to the new block is supported via the block transforms API.
+* **Compatibility:** Tested with WordPress 7.1 "Mary Lou" and PHP 8.3.
+* **Internal:** No schema changes; safe to downgrade back to 2.1.0 if needed.
+
 = 2.1.0 =
 * **New: Duplicate poll** — "Duplicate" row action on the polls list copies a poll (and its answer options, images, and settings) into a new draft so you can clone recurring votes without rebuilding them. Votes are not copied.
 * **New: Extensibility hooks** — Added a stable set of actions and filters (`uvpe_loaded`, `uvpe_can_user_vote`, `uvpe_before_vote_cast`, `uvpe_after_vote_cast`, `uvpe_vote_data`, `uvpe_templates`, `uvpe_poll_row_actions`, `uvpe_schema_tables`, `uvpe_duplicate_poll_data`, `uvpe_poll_duplicated`, `uvpe_schema_upgraded`) so companion add-ons can extend the plugin without modifying its code.
@@ -189,6 +194,9 @@ No data ever leaves your site. Deleting the plugin from the Plugins screen remov
 * Shortcode: `[uvpe_poll id="N"]`.
 
 == Upgrade Notice ==
+
+= 2.2.0 =
+Adds a Gutenberg block so you can insert polls from the block picker instead of pasting shortcodes. Safe to upgrade — no schema changes.
 
 = 2.1.0 =
 Adds the Duplicate-poll action, a Pro-ready extensibility hook set, and the schema groundwork for the upcoming vote-revision window. Safe to upgrade — existing polls, votes, and settings are preserved.
