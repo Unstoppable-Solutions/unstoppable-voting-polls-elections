@@ -4,7 +4,7 @@ Tags: polls, voting, elections, ballot, surveys
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.2.0
+Stable tag: 2.2.1
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,6 +128,10 @@ No data ever leaves your site. Deleting the plugin from the Plugins screen remov
 
 == Changelog ==
 
+= 2.2.1 =
+* **Refreshed plugin icon** — the WordPress.org directory icon now uses the same dark-navy palette as the plugin banner, so the two read as one brand.
+* No code changes; no behavior changes.
+
 = 2.2.0 =
 * **New: Gutenberg block** — Insert any of your polls into a page or post from the block picker without copying shortcodes. Search for "Poll" in the inserter, pick the poll from a dropdown in the block sidebar, and get a live preview in the editor. On the frontend, the block renders through the same shortcode handler, so results, templates and duplicate-vote prevention all behave exactly the same as `[uvpe_poll]`. Converting an existing shortcode block to the new block is supported via the block transforms API.
 * **Compatibility:** Tested with WordPress 7.1 "Mary Lou" and PHP 8.3.
@@ -194,6 +198,9 @@ No data ever leaves your site. Deleting the plugin from the Plugins screen remov
 * Shortcode: `[uvpe_poll id="N"]`.
 
 == Upgrade Notice ==
+
+= 2.2.1 =
+Cosmetic release — refreshed WordPress.org icon to match the plugin banner. No code changes.
 
 = 2.2.0 =
 Adds a Gutenberg block so you can insert polls from the block picker instead of pasting shortcodes. Safe to upgrade — no schema changes.
