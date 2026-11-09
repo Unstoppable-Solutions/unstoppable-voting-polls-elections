@@ -3,7 +3,7 @@
  * Plugin Name: Unstoppable Voting, Polls & Elections
  * Plugin URI: https://unstoppablesolutions.app/plugins/unstoppable-voting-polls-elections
  * Description: Run secure polls and formal elections in WordPress — board votes, officer elections, member surveys, tournament brackets, captain voting, and more. Five ballot templates, seven sort modes, and powerful duplicate-vote prevention. Built for organizations that take voting seriously.
- * Version: 2.2.1
+ * Version: 2.2.2
  * Author: Unstoppable Solutions
  * Author URI: https://unstoppablesolutions.app
  * License: GPL-2.0-or-later
@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Plugin constants.
-define( 'UVPE_VERSION', '2.2.1' );
+define( 'UVPE_VERSION', '2.2.2' );
 define( 'UVPE_PLUGIN_FILE', __FILE__ );
 define( 'UVPE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'UVPE_PLUGIN_URL', plugin_dir_url( __FILE__ ) );

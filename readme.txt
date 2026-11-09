@@ -4,7 +4,7 @@ Tags: polls, voting, elections, ballot, surveys
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.2.1
+Stable tag: 2.2.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,7 +128,7 @@ No data ever leaves your site. Deleting the plugin from the Plugins screen remov
 
 == Changelog ==
 
-= 2.2.1 =
+= 2.2.2 =
 * **Refreshed plugin icon** — the WordPress.org directory icon now uses the same dark-navy palette as the plugin banner, so the two read as one brand.
 * No code changes; no behavior changes.
 
@@ -199,7 +199,7 @@ No data ever leaves your site. Deleting the plugin from the Plugins screen remov
 
 == Upgrade Notice ==
 
-= 2.2.1 =
+= 2.2.2 =
 Cosmetic release — refreshed WordPress.org icon to match the plugin banner. No code changes.
 
 = 2.2.0 =
