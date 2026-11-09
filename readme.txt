@@ -4,7 +4,7 @@ Tags: polls, voting, elections, ballot, surveys
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 2.2.2
+Stable tag: 2.2.3
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -128,6 +128,9 @@ No data ever leaves your site. Deleting the plugin from the Plugins screen remov
 
 == Changelog ==
 
+= 2.2.3 =
+* **Restored plugin banners** that were inadvertently removed in 2.2.2's cosmetic deploy. No code changes.
+
 = 2.2.2 =
 * **Refreshed plugin icon** — the WordPress.org directory icon now uses the same dark-navy palette as the plugin banner, so the two read as one brand.
 * No code changes; no behavior changes.
@@ -198,6 +201,9 @@ No data ever leaves your site. Deleting the plugin from the Plugins screen remov
 * Shortcode: `[uvpe_poll id="N"]`.
 
 == Upgrade Notice ==
+
+= 2.2.3 =
+Cosmetic release — restored the plugin banners on the WordPress.org directory page. No code changes.
 
 = 2.2.2 =
 Cosmetic release — refreshed WordPress.org icon to match the plugin banner. No code changes.
